@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI PORTAFOLIO</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <!-- Añadir la clase fixed-top para hacer que la barra de navegación sea fija -->
+        <a class="navbar-brand" href="#">MI PORTAFOLIO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">Acerca de mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#movies">Películas Favoritas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#series">Series Favoritas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#books">Libros Favoritos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 align-self-center"><br>
+                    <h2>ARIEL FLORES</h2>
+                    <p>¡Hola! Soy Ariel Flores, un estudiante de ingeniería de sistemas que vive entre líneas de código y acordes de guitarra. Me encanta perderme en el mundo de la música, especialmente cuando estoy en un café bar tocando algunas canciones. Mi banda favorita, sin duda, es The Strokes, y últimamente me he dedicado a hacer algunos covers de esa banda.</p>
+                    <p>Cuando no estoy en modo ingeniero o músico, me sumerjo en películas, series y libros. Me encanta el romance porque siempre me deja soñando, y los thrillers psicológicos porque me mantienen al borde del asiento y mi mente trabajando horas extras. Ya sabes, desde clásicos hasta las últimas novedades, siempre estoy buscando la próxima gran historia que me atrape.</p>
+                </div>
+                <div class="col-md-6 text-center"><br>
+                    <img src="ARIEL FLORES.jpg" class="img-fluid" alt="Foto de Franz Beltrán">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="movies" class="py-5">
+        <div class="container text-center">
+            <h2>PELICULAS FAVORITAS</h2> <!-- Agregamos el título "Películas Favoritas" -->
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <img src="pelicula1.jpg" class="img-fluid" alt="Película 1" style="max-width: 337px;">
+                    <h3 class="mt-3">ONE DAY</h3>
+                    <button class="btn btn-primary ver-btn" data-toggle="modal" data-target="#exampleModal" data-title="ONE DAY" data-video="https://www.youtube.com/embed/zVuuooZqVaU">Ver trailer</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="pelicula2.jpg" class="img-fluid" alt="Película 2" style="max-width: 345px;">
+                    <h3 class="mt-3">LOVE ROSIE</h3>
+                    <button class="btn btn-primary ver-btn" data-toggle="modal" data-target="#exampleModal" data-title="LOVE ROSIE" data-video="https://www.youtube.com/embed/dOMTh9Jd81w">Ver trailer</button>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <img src="pelicula3.jpg" class="img-fluid" alt="Película 3" style="max-width: 375px;">
+                    <h3 class="mt-3">INTERESTELAR</h3>
+                    <button class="btn btn-primary ver-btn" data-toggle="modal" data-target="#exampleModal" data-title="INTERESTELAR" data-video="https://www.youtube.com/embed/UoSSbmD9vqc">Ver trailer</button>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="pelicula4.jpg" class="img-fluid" alt="Película 4" style="max-width: 370px;">
+                    <h3 class="mt-3">GHOSTLAND</h3>
+                    <button class="btn btn-primary ver-btn" data-toggle="modal" data-target="#exampleModal" data-title="GHOSTLAND" data-video="https://www.youtube.com/embed/ni_DF8waeDE">Ver trailer</button>
+                </div>
+                    <!-- Se pueden agregar más películas aquí -->
+                </div>
+                <!-- Se pueden agregar más películas aquí -->
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="series" class="py-5">
+        <div class="container text-center">
+            <h2>SERIES FAVORITAS</h2> <!-- Agregamos el título "Series Favoritas" -->
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <img src="serie1.jpg" class="img-fluid" alt="Serie 1" style="max-width: 400px;">
+                    <h3 class="mt-3">VIKINGOS</h3>
+                    <button class="btn btn-primary ver-btn" data-toggle="modal" data-target="#exampleModal" data-title="VIKINGOS" data-video="https://www.youtube.com/embed/9GgxinPwAGc">Ver Trailer</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="serie2.jpg" class="img-fluid" alt="Serie 2" style="max-width: 315px;">
+                    <h3 class="mt-3">GAME OF THRONES</h3>
+                    <button class="btn btn-primary ver-btn" data-toggle="modal" data-target="#exampleModal" data-title="GAME OF THRONES" data-video="https://www.youtube.com/embed/KPLWWIOCOOQ">Ver Trailer</button>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <img src="serie3.jpg" class="img-fluid" alt="Serie 3" style="max-width: 355px;">
+                    <h3 class="mt-3">STRANGER THINGS</h3>
+                    <button class="btn btn-primary ver-btn" data-toggle="modal" data-target="#exampleModal" data-title="Emily in Paris" data-video="https://www.youtube.com/embed/x7Yq9MJUqjY">Ver Trailer</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="serie4.jpg" class="img-fluid" alt="Serie 4" style="max-width: 352px;">
+                    <h3 class="mt-3">DARK</h3>
+                    <button class="btn btn-primary ver-btn" data-toggle="modal" data-target="#exampleModal" data-title="DARK" data-video="https://www.youtube.com/embed/IJ_AZCvCacw">Ver Trailer</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="books" class="py-5">
+        <div class="container text-center">
+            <h2>LIBROS FAVORITOS</h2> <!-- Agregamos el título "Libros Favoritos" -->
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <img src="book1.jpg" class="img-fluid" alt="LA PACIENTE SILENCIOSA" style="max-width: 350px;">
+                    <h3 class="mt-3">LA PACIENTE SILENCIOSA</h3>
+                    <button class="btn btn-primary ver-btn mb-4" data-toggle="modal" data-target="#bookModal1">Ver Sinopsis</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="book2.jpg" class="img-fluid" alt="A DOS CENTIMETROS DE TI" style="max-width: 350px;">
+                    <h3 class="mt-3">A DOS CENTIMETROS DE TI</h3>
+                    <button class="btn btn-primary ver-btn mb-4" data-toggle="modal" data-target="#bookModal2">Ver Sinopsis</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="book3.jpg" class="img-fluid" alt="LA MUJER DEL CAMAROTE 10" style="max-width: 312px;">
+                    <h3 class="mt-3">LA MUJER DEL CAMAROTE 10</h3>
+                    <button class="btn btn-primary ver-btn mb-4" data-toggle="modal" data-target="#bookModal3">Ver Sinopsis</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="book4.jpg" class="img-fluid" alt="ORGULLO Y PREJUICIO" style="max-width: 360px;">
+                    <h3 class="mt-3">ORGULLO Y PREJUICIO</h3>
+                    <button class="btn btn-primary ver-btn mb-4" data-toggle="modal" data-target="#bookModal4">Ver Sinopsis</button>
+                </div>
+            </div>
+            <!-- Se pueden agregar más libros aquí -->
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2>Contacto</h2>
+            <p>¡No dudes en ponerte en contacto conmigo!</p>
+            <p>Email: cristiano.ronaldo@gmail.com</p> <!-- Reemplaza "tuemail@example.com" con tu dirección de correo electrónico -->
+        </div>
+    </section>
+
+    <!-- Enlaces a Redes Sociales -->
+    <section id="social" class="py-5 bg-dark">
+        <div class="container text-center">
+            <h2>Sígueme en mis Redes Sociales</h2>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <a href="https://www.instagram.com/cristiano" target="_blank">
+                        <img src="instagram.png" alt="Instagram" width="50" height="50" style="margin-right: 2px;">
+                    </a>
+                    <a href="https://twitter.com/cristiano" target="_blank">
+                        <img src="X.png" alt="Twitter" width="50" height="50" style="margin-left: 2px; margin-right: 2px;">
+                    </a>
+                    <a href="https://www.facebook.com/Cristiano" target="_blank">
+                        <img src="facebook.png" alt="Facebook" width="50" height="50" style="margin-left: 2px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Modal para las películas -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title text-white" id="exampleModalLabel">Título de la Película</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Aquí se incrustará el video del trailer de la película -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe id="videoPlayer" class="embed-responsive-item" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal para los libros -->
+    <div class="modal fade" id="bookModal1" tabindex="-1" role="dialog" aria-labelledby="bookModalLabel1" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bookModalLabel1">LA PACIENTE SILENCIOSA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>SOLO ELLA SABE LO QUE SUCEDIÓ.
+                        SOLO YO PUEDO HACERLA HABLAR.
+                        
+                        Alicia Berenson, una pintora de éxito, dispara cinco tiros en la cabeza  de su marido, y no vuelve a hablar nunca más. Su negativa a emitir  palabra alguna convierte una tragedia doméstica en un misterio que atrapa la imaginación de toda Inglaterra.
+                        
+                        Theo Faber, un ambicioso psicoterapeuta forense obsesionado con el caso,  está empeñado en desentrañar el misterio de lo que ocurrió aquella noche  fatal y consigue una plaza en The Grove, la unidad de seguridad en el  norte de Londres a la que Alicia fue enviada hace seis años y en la que  sigue obstinada en su silencio. Pronto descubre que el mutismo de la  paciente está mucho más enraizado de lo que pensaba. Pero, si al final hablara, ¿estaría dispuesto a escuchar la verdad?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bookModal2" tabindex="-1" role="dialog" aria-labelledby="bookModalLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bookModalLabel2">A DOS CENTIMETROS DE TI</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>¿Pueden chicos y chicas realmente ser amigos? ¿O siempre están a una  pelea de no volverse a hablar nunca... o a un beso de encontrar el amor verdadero?
+
+                        «Los chicos y las chicas pueden ser amigos. Yo solo digo que es  perfectamente posible que un chico y una chica sean amigos. Nunca he  entendido cuál es el problema. O sea, sí, hemos tenido que soportar un  montón de preguntas estúpidas: ¿Estáis juntos?, Pero algún rollo habréis  tenido, ¿no? Bueno, vale. Sea como sea, reconozco que no todo ha ido  como la seda. Hemos tenido algún que otro problemilla. Vale, bastantes  problemas. Pero mira cómo ha acabado todo. Cuando llegué al colegio,  ambos dimos por supuesto que no volveríamos a intercambiar palabra  después de aquel primer día. Sobre todo tú, porque enloqueciste por mí en cuanto me viste. Abundan los adjetivos para describirme: genial, fuerte, viril... ¿Quieres que siga?»
+                        
+                        Digamos que Macallan y Levi fueron amigos a primera vista. Todo el mundo  dice que chicos y chicas no pueden ser amigos de verdad, pero ellos lo  son. Y mucho. Quedan después del instituto, comparten miles de chistes  que solo ellos entienden, sus familias están superunidas... Levi y Macallan solo son amigos, y están felices así.
+                        
+                        Pero, claro, los chicos no piden salir a Macallan porque piensan que  está con Levi y Levi pasa tanto tiempo con ella que no le queda tiempo  para sus novias. Así que un día comenzarán a preguntarse si no estarían  mejor juntos. Aunque quizá eso complique demasiado su relación.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="bookModal3" tabindex="-1" role="dialog" aria-labelledby="bookModalLabel3" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bookModalLabel3">LA MUJER DEL CAMAROTE 10</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>La invitación a un crucero de lujo, que zarpa de Londres rumbo a los  fiordos noruegos, es como un sueño hecho realidad para Laura Blacklock,  una joven periodista en horas bajas. Los primeros compases de la  travesía discurren conforme a lo previsto: el ambiente del barco es  suntuoso, el servicio, de primera categoría, y el pasaje derrocha  elegancia, simpatía y dinero. Sin embargo, todo cambia cuando, una  noche, un grito aterrador despierta a Laura, quien, estupefacta, observa  cómo el cuerpo de una mujer cae al mar desde el compartimento contiguo.
+
+                        Al dar la voz de alarma, la tripulación le asegura que el camarote  número 10 siempre ha estado vacío y que no falta ningún pasajero a  bordo. Así, con creciente inquietud, Laura comprueba que... nadie le  cree. Y lo peor no es que se sienta sola y aislada, sino que una serie  de extraños acontecimientos la convencen de que ella puede ser la próxima víctima.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bookModal4" tabindex="-1" role="dialog" aria-labelledby="bookModalLabel4" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bookModalLabel4">ORGULLO Y PREJUICIO</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Publicada por primera vez en 1813, Orgullo y prejuicio es una de las obras maestras de la literatura inglesa de todos los tiempos. Esta novela, ambientada en la Inglaterra rural de principios del siglo XIX, nos presenta a las hermanas Bennet, que viven con sus padres en Longbourn. Sus vidas están marcadas por la presencia de los numerosos pretendientes de sus hijas y la obsesión de su madre por casarlas con hombres de buena posición. La llegada al vecindario de Charles Bingley, joven, soltero y rico, despierta el interés de las hermanas Bennet, especialmente de la mayor, Jane, pero su amigo Fitzwilliam Darcy, condesendiente y altivo, detiene sus ansias de casarse con él. Por su parte, Elizabeth, la protagonista, es una joven inteligente y perspicaz que no piensa doblegarse ante ningún hombre. Pero su opinión sobre Darcy cambia cuando descubre que, tras la fachada de hombre frío y distante, se esconde un corazón noble.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).on("click", ".ver-btn", function () {
+            var titulo = $(this).data('title');
+            var video = $(this).data('video');
+            $(".modal-title").html(titulo);
+            $("#videoPlayer").attr('src', video);
+        });
+        $(document).on("click", ".close", function () {
+            $("#videoPlayer").attr('src', '');
+        });
+    </script>
+     <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .modal-content {
+            background-color: #333;
+            color: white;
+        }
+        .modal-header, .modal-footer {
+            border-color: #444;
+        }
+    </style>
+</body>
+</html>
